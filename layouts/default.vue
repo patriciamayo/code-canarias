@@ -1,7 +1,9 @@
 <template>
   <div>
     <TheNavBar />
-    <Nuxt />
+    <div id="padding-scroll-content">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
@@ -27,5 +29,10 @@ html {
 
 body {
   background-color: #f5f7f9;
+}
+
+#padding-scroll-content {
+  height: 100vh;
+  overflow-x: auto;
 }
 </style>

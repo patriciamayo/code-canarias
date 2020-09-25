@@ -15,8 +15,6 @@
           class="tag"
           success
           flat
-          :active="active == 1"
-          @click="active = 1"
         >
           {{ skill }}
         </vs-button>

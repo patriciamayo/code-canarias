@@ -1,6 +1,6 @@
 <template>
   <div class="coders-list">
-    <coder-card :coder="coders[0]" />
+    <coder-card v-for="(coder, index) of coders" :key="index" :coder="coder" />
   </div>
 </template>
 
@@ -24,5 +24,6 @@ export default {
 .coders-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
 }
 </style>

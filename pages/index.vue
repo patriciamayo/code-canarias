@@ -20,3 +20,11 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 128px 32px;
+}
+</style>

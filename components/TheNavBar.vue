@@ -6,7 +6,7 @@
     center-collapsed
   >
     <template #left>
-      <img src="/logo2.png" alt="" />
+      <img class="navbar-logo" src="/images/logo.png" alt="" />
     </template>
     <vs-navbar-item id="coders" to="/" :active="active == 'coders'">
       Coders
@@ -15,7 +15,7 @@
       ¿Quiénes somos?
     </vs-navbar-item>
     <template #right>
-      <vs-button>Únete</vs-button>
+      <vs-button relief size="l">¿Te apuntas?</vs-button>
     </template>
   </vs-navbar>
 </template>
@@ -27,3 +27,10 @@ export default {
   }),
 }
 </script>
+
+<style scoped>
+.navbar-logo {
+  width: 100%;
+  max-width: 220px;
+}
+</style>

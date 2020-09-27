@@ -10,7 +10,7 @@
       <p class="bio">{{ coder.bio }}</p>
       <div>
         <vs-button
-          v-for="(skill, index) of coder.skills.slice(0, 5)"
+          v-for="(skill, index) of coder.skills.slice(0, maxSkills)"
           :key="index"
           class="tag"
           success
@@ -21,21 +21,27 @@
       </div>
     </template>
     <template #interactions>
-      <vs-button v-if="coder.github" danger icon :href="coder.github" blank>
+      <vs-button v-if="coder.github" primary icon :href="coder.github" blank>
         <i class="bx bxl-github"></i>
       </vs-button>
-      <vs-button v-if="coder.twitter" danger icon :href="coder.twitter" blank>
+      <vs-button v-if="coder.twitter" primary icon :href="coder.twitter" blank>
         <i class="bx bxl-twitter"></i>
       </vs-button>
-      <vs-button v-if="coder.website" danger icon :href="coder.website" blank>
+      <vs-button v-if="coder.website" primary icon :href="coder.website" blank>
         <i class="bx bx-globe"></i>
       </vs-button>
-      <vs-button v-if="coder.linkedin" danger icon :href="coder.linkedin" blank>
+      <vs-button
+        v-if="coder.linkedin"
+        primary
+        icon
+        :href="coder.linkedin"
+        blank
+      >
         <i class="bx bxl-linkedin"></i>
       </vs-button>
       <vs-button
         v-if="coder.github"
-        danger
+        primary
         icon
         :href="`mailto:${coder.github}`"
         blank
@@ -47,12 +53,19 @@
 </template>
 
 <script>
+import { MAX_SKILLS } from '~/constants'
+
 export default {
   props: {
     coder: {
       type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      maxSkills: MAX_SKILLS,
+    }
   },
 }
 </script>

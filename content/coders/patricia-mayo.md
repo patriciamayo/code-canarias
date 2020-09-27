@@ -18,10 +18,7 @@ skills: # Add your top 5 skills
 languages: 
     - name: Inglés
       icon: 🇬🇧
-      level: Profesional
     - name: Frances
       icon: 🇫🇷
-      level: Principiante
-
 ---
 

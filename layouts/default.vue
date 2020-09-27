@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div vs-theme="dark">
     <TheNavBar />
     <div id="padding-scroll-content">
       <Nuxt />
@@ -27,8 +27,13 @@ html {
   margin: 0;
 }
 
+:root {
+  --vs-success: 0, 245, 233;
+  --vs-warn: 255, 255, 0;
+}
+
 body {
-  background-color: #f5f7f9;
+  background-color: #151518;
 }
 
 #padding-scroll-content {

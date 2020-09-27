@@ -3,6 +3,7 @@
     <TheNavBar />
     <div id="padding-scroll-content">
       <Nuxt />
+      <TheFooter />
     </div>
   </div>
 </template>
@@ -39,5 +40,14 @@ body {
 #padding-scroll-content {
   height: 100vh;
   overflow-x: auto;
+}
+
+a {
+  color: rgb(0, 245, 233);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #185cff;
 }
 </style>

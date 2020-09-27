@@ -3,10 +3,10 @@
     v-model="active"
     target-scroll="#padding-scroll-content"
     padding-scroll
-    center-collapsed
   >
     <template #left>
       <img class="navbar-logo" src="/images/logo.png" alt="" />
+      <img class="navbar-logo-small" src="/images/logo-small.png" alt="" />
     </template>
     <vs-navbar-item id="coders" to="/" :active="active == 'coders'">
       Coders
@@ -32,5 +32,22 @@ export default {
 .navbar-logo {
   width: 100%;
   max-width: 220px;
+  display: block;
+}
+
+.navbar-logo-small {
+  width: 100%;
+  max-width: 30px;
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .navbar-logo {
+    display: none;
+  }
+
+  .navbar-logo-small {
+    display: block;
+  }
 }
 </style>

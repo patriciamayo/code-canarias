@@ -25,5 +25,18 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 32px;
+  justify-items: center;
+}
+
+@media (max-width: 850px) {
+  .coders-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .coders-list {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

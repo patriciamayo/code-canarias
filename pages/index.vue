@@ -4,13 +4,22 @@
       ¿Necesitas
       <vue-typer
         :text="[
-          'una app?',
+          'una app para iOS?',
+          'una app para Android?',
+          'una app híbrida?',
           'una web?',
           'una tienda online?',
           'un desarrollador fullstack?',
           'mejorar tu ciberseguridad?',
           'un videojuego?',
+          'un experto en AI?',
           'organizar tu base de datos?',
+          'administrar tu servidor?',
+          'migrar a microservicios?',
+          'testear tu software?',
+          'analizar tus redes?',
+          'programar dispositivos IoT?',
+          'analizar tu BigData?',
         ]"
         :repeat="Infinity"
         :shuffle="true"

@@ -9,26 +9,23 @@
   </a>
 </p>
 
+[🇬🇧 View the README in English](https://github.com/patriciamayo/code-canarias/blob/master/README-en.md)
+
 CodeCanarias es el sitio para encontrar personas excepcionales a las que seguir, buscar un mentor o descubrir canarios con talento a las que contratar. Queremos tener un lugar para mostrar el potencial de los canarios en tecnología y aumentar el empleo en las islas.
 
-CodeCanarias is the place to find exceptional people to follow, find a mentor, or discover talented canaries to hire. We want to have a place to show the potential of the Canaries in technology and increase employment in the islands.
-
-## 💼 Cómo hacerte Patrocinador | How to become a Sponsor
+## 💼 Cómo hacerte Patrocinador
 
 Si eres una empresa o institución y te gustaría aparecer en nuestra lista de Patrocinadores mándanos un email. No solo serás incluido en la lista, sino que también aparecerás en la página principal de manera aleatoria.
 
-If you are a company or institution and would like to appear on our list of Sponsors, send us an email. Not only will you be listed, but you will also randomly appear on the main page.
-
-## 🏆 Cómo añadir tu perfil | How to add your profile
+## 🏆 Cómo añadir tu perfil
 
 ¡Es muy fácil! Si eres de las Islas Canarias y te dedicas al campo de la informática y el desarrollo, puedes añadir tu perfil para que aparezca en nuestra lista de "coders".
 
-It's very easy! If you are from the Canary Islands and you work in the field of computer science and development, you can add your profile to appear on our list of "coders".
-
-### La manera fácil | The easy way
-1. [Haz click aquí | Click here](https://github.com/patriciamayo/code-canarias/new/master/content/coders)
-2. Nombra el documento con el formato  `nombre-apellido.md` | Name the file with the format `name-lastname.md`
-3. Copia y pega la plantilla | Copy and paste this template
+### La manera fácil
+1. [Haz click aquí](https://github.com/patriciamayo/code-canarias/new/master/content/coders)
+2. Nombra el documento con el formato  `nombre-apellido.md`
+3. Copia y pega la plantilla
+  
 ```yaml
 ---
 name: Patricia Mayo Tejedor
@@ -64,17 +61,17 @@ Descripción larga | Long description here
 Puedes poner tus estudios, tu experiencia, tus hobbies en formato Markdown. | You can add your studies, your experience, your hobbies.. in Markdown format
 ```
 
-4. Personaliza la plantilla con tus propios datos | Personalize the template with your own data
-5. Pon un nombre a tu commit y dale click al botón 'Commit new file' | Put a commit name and press Commit new file
+1. Personaliza la plantilla con tus propios datos
+2. Pon un nombre a tu commit y dale click al botón 'Commit new file'
 
-### La manera `coder`| The coder way
-1. Haz un Fork del repositorio | Fork this repository
-2. Ve a `/content/coders` | Go to `/content/coders`
-3. Crea un documento con el formato `nombre-apellido.md` | Create a file named like `firstnaeme-lastname.md`
-4. Copia y pega la plantilla de arriba y sustituye el contenido con tus datos | Copy paste the template above and replace the content with your real data
-5. Commit y envía tu PR | Commit and send your PR
+### La manera `coder`
+1. Haz un Fork del repositorio
+2. Ve a `/content/coders`
+3. Crea un documento con el formato `nombre-apellido.md`
+4. Copia y pega la plantilla de arriba y sustituye el contenido con tus datos
+5. Commit y envía tu PR
 
-## ⚙️ Como  ejecutar la web | How to run the website
+## ⚙️ Como  ejecutar la web
 
 ```bash
 # install dependencies
@@ -91,15 +88,15 @@ $ npm run start
 $ npm run generate
 ```
 
-📚 Más documentación | More documentations
+📚 Más documentación
 * [Nuxt.js](https://nuxtjs.org)
 
-## 🤝 Contribuir | Contributing
-¡Las contribuciones, los fallos y las sugerencias son bienvenidas! | Contributions, issues and feature requests are welcome!
+## 🤝 Contribuir
+¡Las contribuciones, los fallos y las sugerencias son bienvenidas!
 
-## ⭐️ Muestra tu apoyo | Show your support
-Dale una ⭐️ a este repo si el proyecto te ha sido útil |  Please ⭐️ this repository if this project helped you!
+## ⭐️ Muestra tu apoyo
+Dale una ⭐️ a este repo si el proyecto te ha sido útil
 
-## 📝 License
+## 📝 Licencia
 Copyright © 2020 Patricia Mayo Tejedor
 This project is [MIT](/LICENSE) licensed.

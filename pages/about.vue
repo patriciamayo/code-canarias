@@ -10,7 +10,7 @@
     </p>
     <h1>Si quieres formar parte de esta comunidad</h1>
     <p>
-      ¡Es my fácil! Si eres de las Islas Canarias y te dedicas al campo de la
+      ¡Es muy fácil! Si eres de las Islas Canarias y te dedicas al campo de la
       informática y el desarrollo, puedes añadir tu perfil para que aparezca en
       nuestra lista de "coders". Te explicamos como hacerlo 👇
     </p>
